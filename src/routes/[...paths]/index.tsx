@@ -4,12 +4,10 @@ import {
   useStore,
   useTask$,
 } from "@builder.io/qwik";
-import { routeLoader$ } from "@builder.io/qwik-city";
+import { routeLoader$, useNavigate } from "@builder.io/qwik-city";
 
 import fs from "fs";
 import { Context } from "../context";
-import { List } from "./List";
-import { ModifyState } from "./ModifyState";
 
 export const useData = routeLoader$((ev) => {
   const num = Number(ev.params.paths[0]) || 0;
@@ -30,7 +28,7 @@ export default component$(() => {
 const Main = component$(() => {
   const data = useData();
   const store = useStore(data.value);
-  useContextProvider(Context, store);
+  const navigate = useNavigate();
 
   useTask$(({ track }) => {
     track(data);
@@ -63,8 +61,40 @@ const Main = component$(() => {
           - I added 4 notes to the code to explain the bug better, please check them out, look for the word "Note" in the code.
         `}
       </p>
-      <ModifyState />
-      <List />
+      <button
+        onClick$={() => {
+          // Note 1: If we remove the line below, the bug is not reproducable anymore.
+          store.routeParams.cityName = "???";
+
+          if (window.location.href.includes("/1")) {
+            navigate(`/2`);
+          } else {
+            navigate(`/1`);
+          }
+        }}
+      >
+        Click here
+      </button>
+      <div class="text-[2rem]">
+        {weirdPart(store.routeParams)}
+        {store.data.teachers.length}
+        {/* Note 4: Another thing I observed is that wrapping this text node with a span will make the bug "go away". */}
+        {/* <span>{store.data.teachers.length}</span> */}
+      </div>
+      <div class="teacher-list-container">
+        {JSON.stringify(store.data.teachers)}
+      </div>
     </main>
   );
 });
+
+// Note 2: Only when I destructure the object, extracting the param I modify before the navigation, the bug is reproduced.
+function weirdPart(x: any) {
+  const { cityName } = x;
+
+  return `City Name - ${cityName}: `;
+
+  // Note 3: Just to clarify even if we return a string that doesn't include the cityName, the bug is reproduced.
+  //         (As long as the cityName is destructured, the bug is reproduced.)
+  //         e.g >> return "Text that doesn't include the cityName";
+}
