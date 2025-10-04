@@ -1,13 +1,7 @@
-import {
-  component$,
-  useContextProvider,
-  useStore,
-  useTask$,
-} from "@builder.io/qwik";
+import { component$, useStore, useTask$ } from "@builder.io/qwik";
 import { routeLoader$, useNavigate } from "@builder.io/qwik-city";
 
 import fs from "fs";
-import { Context } from "../context";
 
 export const useData = routeLoader$((ev) => {
   const num = Number(ev.params.paths[0]) || 0;
