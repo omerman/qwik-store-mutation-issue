@@ -1,15 +1,15 @@
-import { component$, useContextProvider } from '@builder.io/qwik';
-import { routeLoader$ } from '@builder.io/qwik-city';
+import { component$, useContextProvider } from "@builder.io/qwik";
+import { routeLoader$ } from "@builder.io/qwik-city";
 
-import fs from 'fs';
-import { Context } from '../context';
-import { useRouteLoaderStore } from '~/utils/useRouteLoaderStore';
-import { ModifyState } from './ModifyState';
-import { List } from './List';
+import fs from "fs";
+import { Context } from "../context";
+import { useRouteLoaderStore } from "~/utils/useRouteLoaderStore";
+import { ModifyState } from "./ModifyState";
+import { List } from "./List";
 
 export const useData = routeLoader$((ev) => {
   const num = Number(ev.params.paths[0]) || 0;
-  return JSON.parse(fs.readFileSync(`state${(num % 3) + 1}.json`, 'utf-8'));
+  return JSON.parse(fs.readFileSync(`state${(num % 2) + 1}.json`, "utf-8"));
 });
 
 export default component$(() => {

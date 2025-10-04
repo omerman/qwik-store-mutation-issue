@@ -10,12 +10,9 @@ export const ModifyState = component$(() => {
   return (
     <button
       onClick$={() => {
-        console.log(context.routeParams.cityName);
         context.routeParams.cityName = "???";
         if (window.location.href.includes("fishy/1")) {
           navigate(`/fishy/2`);
-        } else if (window.location.href.includes("fishy/2")) {
-          navigate(`/fishy/3`);
         } else {
           navigate(`/fishy/1`);
         }
