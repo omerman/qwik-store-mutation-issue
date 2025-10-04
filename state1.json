@@ -2,7 +2,5 @@
   "routeParams": {
     "cityName": "Tokyo"
   },
-  "data": {
-    "teachers": [1, 2, 3, 4, 5]
-  }
+  "teachers": [1, 2, 3, 4, 5]
 }

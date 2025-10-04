@@ -9,9 +9,7 @@ export const useData = routeLoader$((ev) => {
     routeParams: {
       cityName: string;
     };
-    data: {
-      teachers: number[];
-    };
+    teachers: number[];
   };
 });
 
@@ -31,14 +29,14 @@ const Main = component$(() => {
       store.routeParams.cityName = data.value.routeParams.cityName;
     }
 
-    for (let i = 0; i < data.value.data.teachers.length; i++) {
-      if (store.data.teachers[i] !== data.value.data.teachers[i]) {
-        store.data.teachers[i] = data.value.data.teachers[i];
+    for (let i = 0; i < data.value.teachers.length; i++) {
+      if (store.teachers[i] !== data.value.teachers[i]) {
+        store.teachers[i] = data.value.teachers[i];
       }
     }
 
-    if (store.data.teachers.length !== data.value.data.teachers.length) {
-      store.data.teachers.length = data.value.data.teachers.length;
+    if (store.teachers.length !== data.value.teachers.length) {
+      store.teachers.length = data.value.teachers.length;
     }
   });
 
@@ -52,7 +50,7 @@ const Main = component$(() => {
           - However, the second time you click, the state is not updated correctly, the list will contain the right number of items,
             But the counter will show the wrong number of items.
           - Keep clicking the button, items keeps showing the right number of items, but the counter will stop updating.
-          - I added 4 notes to the code to explain the bug better, please check them out, look for the word "Note" in the code.
+          - I added 4 notes to the code to explain the bug better, please check them out, look for the word "Note" in this file.
         `}
       </p>
       <button
@@ -71,13 +69,11 @@ const Main = component$(() => {
       </button>
       <div class="text-[2rem]">
         {weirdPart(store.routeParams)}
-        {store.data.teachers.length}
+        {store.teachers.length}
         {/* Note 4: Another thing I observed is that wrapping this text node with a span will make the bug "go away". */}
-        {/* <span>{store.data.teachers.length}</span> */}
+        {/* <span>{store.teachers.length}</span> */}
       </div>
-      <div class="teacher-list-container">
-        {JSON.stringify(store.data.teachers)}
-      </div>
+      <div class="teacher-list-container">{JSON.stringify(store.teachers)}</div>
     </main>
   );
 });

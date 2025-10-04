@@ -1,6 +1,4 @@
 {
   "routeParams": { "cityName": "Tel Aviv" },
-  "data": {
-    "teachers": [1]
-  }
+  "teachers": [1]
 }
