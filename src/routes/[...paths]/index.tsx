@@ -78,21 +78,24 @@ const Main = component$(() => {
       <div class="text-[2rem]">
         {weirdPart(store.routeParams)}
         {store.teachers.length}
-        {/* Note 4: Another thing I observed is that wrapping the above text node with a span will make the bug "go away". */}
-        {/* <span>{store.teachers.length}</span> */}
+        {/* Note 4: 
+           Another thing I observed is that wrapping the above text node with a span will make the bug "go away".
+           If you uncomment the span and keep the above text node, the bug is STILL reproduced, on the above text node only.
+        */}
+        {/* <span>__{store.teachers.length}__</span> */}
       </div>
       <div class="teacher-list-container">{JSON.stringify(store.teachers)}</div>
     </main>
   );
 });
 
-// Note 2: Only when I destructure the object, extracting the param I modify before the navigation, the bug is reproduced.
 function weirdPart(x: any) {
+  // Note 2: Only when I "touch" the param I modify before the navigation as part of the render, the bug is reproduced.
   const { cityName } = x;
 
   return `City Name - ${cityName}: `;
 
   // Note 3: Just to clarify even if we return a string that doesn't include the cityName, the bug is reproduced.
   //         (As long as the cityName is destructured, the bug is reproduced.)
-  //         e.g >> return "Text that doesn't include the cityName";
+  // return "Text that doesn't include the cityName";
 }
