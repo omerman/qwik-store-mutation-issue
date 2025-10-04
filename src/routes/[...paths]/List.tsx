@@ -34,5 +34,5 @@ function weirdPart(x: any) {
   // Just to clarify even if we return a string that doesnt include the cityName, the bug is reproduced.
   // e.g >> return "מורים";
 
-  return `Teachers in ${cityName}: `;
+  return `City Name - ${cityName}: `;
 }

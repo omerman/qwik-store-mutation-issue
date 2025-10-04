@@ -22,6 +22,15 @@ const Main = component$(() => {
 
   return (
     <main class="mx-content mb-10 px-6 max-md:mx-0">
+      <p style={{ whiteSpace: "pre-line" }}>
+        {`Instructions:
+          - Click the button below
+          - The page will navigate to either /1 or /2
+          - You will notice that the first time you click, the state is updated correctly.
+          - However, the second time you click, the state is not updated correctly, the list will contain the right number of items,
+            But the counter will show the wrong number of items.
+          - Keep clicking the button, items keeps showing the right number of items, but the counter will stop updating.`}
+      </p>
       <ModifyState />
       <List />
     </main>
