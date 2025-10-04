@@ -22,10 +22,6 @@ export const useData = routeLoader$((ev) => {
 });
 
 export default component$(() => {
-  return <Main />;
-});
-
-const Main = component$(() => {
   const data = useData();
   const store = useStore(data.value);
   const navigate = useNavigate();
