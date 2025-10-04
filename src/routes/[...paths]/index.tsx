@@ -1,16 +1,24 @@
 import { component$, useStore, useTask$ } from "@builder.io/qwik";
 import { routeLoader$, useNavigate } from "@builder.io/qwik-city";
 
-import fs from "fs";
-
 export const useData = routeLoader$((ev) => {
-  const num = Number(ev.params.paths[0]) || 0;
-  return JSON.parse(fs.readFileSync(`state${(num % 2) + 1}.json`, "utf-8")) as {
-    routeParams: {
-      cityName: string;
+  const city = ev.params.paths;
+
+  if (city === "Tokyo") {
+    return {
+      routeParams: {
+        cityName: "Tokyo",
+      },
+      teachers: [1, 2, 3, 4, 5],
     };
-    teachers: number[];
-  };
+  } else {
+    return {
+      routeParams: {
+        cityName: "Tel_Aviv",
+      },
+      teachers: [1],
+    };
+  }
 });
 
 export default component$(() => {
@@ -58,10 +66,10 @@ const Main = component$(() => {
           // Note 1: If we remove the line below, the bug is not reproducable anymore.
           store.routeParams.cityName = "???";
 
-          if (window.location.href.includes("/1")) {
-            navigate(`/2`);
+          if (window.location.href.includes("/Tokyo")) {
+            navigate(`/Tel_Aviv`);
           } else {
-            navigate(`/1`);
+            navigate(`/Tokyo`);
           }
         }}
       >
