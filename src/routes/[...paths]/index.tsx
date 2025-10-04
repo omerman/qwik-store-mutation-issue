@@ -53,11 +53,11 @@ const Main = component$(() => {
       <p style={{ whiteSpace: "pre-line" }}>
         {`Instructions:
           - Click the button below
-          - The page will navigate to either /1 or /2
+          - The page will navigate to either /Tokyo or /Tel_Aviv
           - You will notice that the first time you click, the state is updated correctly.
           - However, the second time you click, the state is not updated correctly, the list will contain the right number of items,
             But the counter will show the wrong number of items.
-          - Keep clicking the button, items keeps showing the right number of items, but the counter will stop updating.
+          - Keep clicking the button, array keeps showing the right items, but the counter will stop updating.
           - I added 4 notes to the code to explain the bug better, please check them out, look for the word "Note" in this file.
         `}
       </p>
