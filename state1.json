@@ -1,0 +1,740 @@
+{
+  "routeParams": {
+    "instrumentId": 5,
+    "isApproved": false,
+    "isSitemap": true
+  },
+  "teacherFilters": {
+    "specialties": [
+      {
+        "id": 26,
+        "value": "FL Studio",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 17,
+        "value": "אילתורים",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 6,
+        "value": "אפקטים",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 3,
+        "value": "אקורדים",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 21,
+        "value": "ביצוע",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 29,
+        "value": "בניית חוסן דרך נגינה",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 13,
+        "value": "דיוק בשירה",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 32,
+        "value": "הגשה",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 20,
+        "value": "הלחנה",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 10,
+        "value": "הלחנה בעזרת מחשב",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 19,
+        "value": "הפקה מוזיקלית",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 30,
+        "value": "הרחבת מנעד",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 25,
+        "value": "הרכבים מוסיקליים",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 18,
+        "value": "הרמוניה ג'אז",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 8,
+        "value": "טכניקה",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 36,
+        "value": "יצירה בתוכנת אבלטון",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 28,
+        "value": "מציאת הקול האישי",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 33,
+        "value": "מקאמים",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 34,
+        "value": "נגינה",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 22,
+        "value": "נגינה בהרכב",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 37,
+        "value": "סאונד ומיקס",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 16,
+        "value": "סגנונות שירה שונים",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 4,
+        "value": "סולואים",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 2,
+        "value": "סולמות",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 11,
+        "value": "עיבוד",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 9,
+        "value": "פיתוח שמיעה",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 38,
+        "value": "פרוטולס",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 27,
+        "value": "פרפורמנס והגשה",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 31,
+        "value": "פרשנות טקסט",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 24,
+        "value": "פרשנות מוזיקלית",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 7,
+        "value": "קומפוזיציה",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 40,
+        "value": "קלידים",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 5,
+        "value": "קצב",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 39,
+        "value": "קצב  מוזיקת עולם",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 14,
+        "value": "קריאת תווים",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 12,
+        "value": "שימוש נכון בקול",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 15,
+        "value": "שירה בקולות",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 41,
+        "value": "שירים",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 35,
+        "value": "שפת המוזיקה",
+        "isActive": false,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 1,
+        "value": "תאוריה מוזיקלית",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      }
+    ],
+    "instruments": [
+      {
+        "id": 31,
+        "value": "אבלטון",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/Instrument-Ableton.png"
+      },
+      {
+        "id": 28,
+        "value": "אקורדיון",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/Instrument-Accordion.png"
+      },
+      {
+        "id": 21,
+        "value": "בוזוקי",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/Instrument-Bouzouki.png"
+      },
+      {
+        "id": 1,
+        "value": "גיטרה",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/Instrument-ClassicGuitar.png"
+      },
+      {
+        "id": 2,
+        "value": "גיטרה בס",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/Instrument-BassGuitar.png"
+      },
+      {
+        "id": 23,
+        "value": "דיגיי",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/Instrument-DJ.png"
+      },
+      {
+        "id": 6,
+        "value": "חליל צד",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/Instrument-Flute.png"
+      },
+      {
+        "id": 16,
+        "value": "חצוצרה",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/Instrument-Trumpet.png"
+      },
+      {
+        "id": 26,
+        "value": "יוקולילי",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/Instrument-Ukulele.png"
+      },
+      {
+        "id": 7,
+        "value": "כינור",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/Instrument-Violin.png"
+      },
+      {
+        "id": 27,
+        "value": "כלי הקשה",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/Instrument-Percussion.png"
+      },
+      {
+        "id": 29,
+        "value": "מנדולינה",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/Instrument-Mandolin.png"
+      },
+      {
+        "id": 32,
+        "value": "סקסופון",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 30,
+        "value": "עוד",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/Instrument-Oud.png"
+      },
+      {
+        "id": 5,
+        "value": "פיתוח קול",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/Instrument-Voice.png"
+      },
+      {
+        "id": 8,
+        "value": "פסנתר",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/Instrument-Piano.png"
+      },
+      {
+        "id": 20,
+        "value": "צ'לו",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/Instrument-Chelo.png"
+      },
+      {
+        "id": 4,
+        "value": "קלידים",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/Instrument-Keys.png"
+      },
+      {
+        "id": 33,
+        "value": "קלרינט",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 34,
+        "value": "קריאת קצב והקשה",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 17,
+        "value": "קרן יער",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/Instrument-FrenchHorn.png"
+      },
+      {
+        "id": 3,
+        "value": "תופים",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/Instrument-Drums.png"
+      }
+    ],
+    "areas": [
+      "תל אביב",
+      "חולון",
+      "בת ים",
+      "הוד השרון",
+      "כפר סבא",
+      "ראש העין",
+      "רמת השרון",
+      "רעננה",
+      "ישובי דרום השרון",
+      "מתן",
+      "גבעתיים",
+      "רמת גן",
+      "תל אביב - יפו",
+      "פתח תקוה",
+      "באר יעקב",
+      "ראשון לציון",
+      "אילת",
+      "ירושלים",
+      "פתח תקווה",
+      "טבריה"
+    ],
+    "genres": [
+      {
+        "id": 4,
+        "value": "בלוז",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 18,
+        "value": "בלקן",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 5,
+        "value": "ג'אז",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 14,
+        "value": "היפהופ",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 23,
+        "value": "חסידי",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 17,
+        "value": "טורקית",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 19,
+        "value": "יוונית",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 24,
+        "value": "כליזמר",
+        "isActive": false,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 15,
+        "value": "מוזיקה ים תיכונית",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 10,
+        "value": "מוזיקה עברית",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 13,
+        "value": "מוזיקה קאמרית",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 21,
+        "value": "מוזיקה רוסית",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 6,
+        "value": "מוסיקת עולם",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 8,
+        "value": "מטאל",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 20,
+        "value": "ערבית",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 9,
+        "value": "פאנק",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 1,
+        "value": "פופ",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 22,
+        "value": "פופ מוזיקה לילדים רוסית עברית",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 3,
+        "value": "קלאסי",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 16,
+        "value": "רגאיי",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 2,
+        "value": "רוק",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      },
+      {
+        "id": 7,
+        "value": "שירה עממית",
+        "isActive": true,
+        "thumbnail": "/images/Teachers/PlaceHolder.png"
+      }
+    ],
+    "ageGroups": [
+      {
+        "id": 1,
+        "value": "כל הגילאים",
+        "isActive": true
+      },
+      {
+        "id": 2,
+        "value": "ילדים",
+        "isActive": true
+      },
+      {
+        "id": 4,
+        "value": "בני נוער",
+        "isActive": true
+      },
+      {
+        "id": 8,
+        "value": "בוגרים",
+        "isActive": true
+      }
+    ],
+    "abilityLevels": [
+      {
+        "id": 1,
+        "value": "כל הרמות",
+        "isActive": true
+      },
+      {
+        "id": 2,
+        "value": "מתחילים",
+        "isActive": true
+      },
+      {
+        "id": 4,
+        "value": "בינוניים",
+        "isActive": true
+      },
+      {
+        "id": 8,
+        "value": "מתקדמים",
+        "isActive": true
+      },
+      {
+        "id": 16,
+        "value": "מקצוענים",
+        "isActive": true
+      }
+    ],
+    "typeOfLessons": [
+      {
+        "id": 1,
+        "value": "לא משנה לי",
+        "isActive": true
+      },
+      {
+        "id": 2,
+        "value": "בבית התלמיד.ה",
+        "isActive": true
+      },
+      {
+        "id": 4,
+        "value": "בבית המורה",
+        "isActive": true
+      },
+      {
+        "id": 8,
+        "value": "בסטודיו",
+        "isActive": true
+      },
+      {
+        "id": 16,
+        "value": "און-ליין",
+        "isActive": true
+      }
+    ]
+  },
+  "data": {
+    "teachers": [
+      {
+        "id": "23b0a84d-2e3a-49d7-8b11-65eb96e7767b",
+        "firstName": "הדר",
+        "lastName": "אוחיון",
+        "profilePicture": "\\Images\\UserProfilePictures\\18d52746b5654846b5655befbe16c6de.jpg",
+        "yearsOfExperience": 0,
+        "city": "מתן ",
+        "areas": [
+          "הוד השרון",
+          "כפר סבא",
+          "ראש העין",
+          "רמת השרון",
+          "רעננה",
+          "ישובי דרום השרון",
+          "מתן"
+        ],
+        "musicInstruments": [5],
+        "musicSpecialties": [
+          1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 21, 24, 27,
+          28, 31
+        ],
+        "shortDesc": "מורה לפיתוח קול, אזור השרון, מגיעה לבית התלמיד.",
+        "longDesc": "מורה לפיתוח קול, \nבוגרת בית הספר רימון ובעלת תואר ראשון בהוראת המוזיקה בלוינסקי וינגייט לחינוך. \nיוצאת להקה צבאית ומורה למוזיקה לילדים ונוער.\nמגיעה לבית התלמיד לשיעור פיתוח קול לכל הגילאים באזור השרון.\n",
+        "url": "מורים_למוזיקה/הדר_אוחיון",
+        "hourRates": [
+          {
+            "minutes": 45,
+            "nisRate": 160,
+            "typeOfLesson": 2
+          }
+        ]
+      },
+      {
+        "id": "d15dc1e3-6370-4816-ab14-eed07684a19c",
+        "firstName": "ליאת",
+        "lastName": "אליהו שלו",
+        "profilePicture": "\\Images\\UserProfilePictures\\dbcd66f5602249f9a77aff41d0c2b50d.jpg",
+        "city": "באר יעקב",
+        "areas": ["באר יעקב", "ראשון לציון"],
+        "musicInstruments": [5],
+        "musicSpecialties": [
+          2, 4, 5, 8, 9, 11, 12, 13, 15, 16, 17, 21, 24, 27, 28
+        ],
+        "shortDesc": "מורה לפיתוח קול בבאר יעקב",
+        "longDesc": "ליאת אליהו שלו - מורה לפיתוח קול!\nזמרת יוצרת, ומוזיקאית פעילה, בעלת ניסיון הוראה וניסיון בהקלטות אולפן, שולטת במגוון סגנונות.\n•יוצאת להקה צבאית, ולימודי תואר ראשון בקריה האקדמית-אונו.\n•השיעור מועבר בשיטה ייחודית ונעימה, סובלנית ומדוקדקת.\n•הכנה לאודישנים ובחינות מגמה, לימוד נשימה נכונה ודרך מדוייקת לשיר מבלי לפגוע במיתרי הקול.\n•תרגילי סרעפת חיזוק ושליטה. \n•תרגילי חימום הקול.\n•הרחבת מנעד הקול.\n•פיתוח הקול והשירה בכל הסגנונות.\n•חיזוק דרכי הנשימה\n•הגמשה והתפתחות מיתרי הקול\n•פיתוח שמיעה מוזיקלית\n•התמקדות בדיקציה והגייה נכונה\n•הגשת טקסט ואינטרפרטציה אישית\nהשיעורים מתקיימים ב\"אולפני שלו\" במערב ראשל\"צ ומתאימים למתחילים ומתקדמים, לנוער ,למבוגרים ולילדים מגיל 10 ומעלה.\nניתן גם להקליט ביצועים באולפן.",
+        "url": "מורים_למוזיקה/ליאת_אליהו_שלו",
+        "hourRates": [
+          {
+            "minutes": 60,
+            "nisRate": 200,
+            "typeOfLesson": 8
+          }
+        ]
+      },
+      {
+        "id": "b59134dc-5b14-4141-adb2-c249a1198cdc",
+        "firstName": "עופרי",
+        "lastName": "אליעז",
+        "profilePicture": "\\Images\\UserProfilePictures\\db63d857cd3d41cd948210be49fd7634.jpg",
+        "city": "אילת",
+        "areas": ["אילת"],
+        "musicInstruments": [5],
+        "musicSpecialties": [
+          1, 2, 3, 5, 8, 9, 12, 13, 14, 15, 16, 17, 18, 21, 24, 27, 28, 29
+        ],
+        "shortDesc": "מורה לפיתוח קול באילת",
+        "longDesc": "מורה לפיתוח קול אישי, על פי השיטה הייחודית של ג\"ואן קובין ממנהטן- מורתם של ליזה מינלי וכוכבי ברודווי רבים.לכל אחד יש את הזכות לשיר ולהביע את עצמו ואת קולו. מימוש הפוטנציאל הקולי באופן טבעי - מביא לתוצאות מהירות בשטח. \nהשיעורים מקנים: שירה משוחררת וללא מאמץ. פיתוח שמיעה. פתרון בעיות ווקאליות, דיקציה. יישום בכל סגנונות המוזיקה, קל עד קלאסי קל. ניתן לשלב לימודי תאוריה ופתוח שמיעה, אלתור קולי , הכנה לאודישנים ובניית רפרטואר להופעות .\n השיעור מחולק לשלושה חלקים : \n1 תרגילי נשימה : תרגילי הנשימה מאפשרים לחזק את הסרעפת והבטן התחתונה ומאפשרים תמיכה בזמן שירה. \n2 תרגילים קוליים : מחזקים את מיתרי הקול, מרחיבים את המנעד, יוצרים חיבור בין הרגיסטר העליון והתחתון , מאפשרים למצוא גוונים קוליים שונים ועוד.\n3 עבודה על שיר ( בדרך כלל שיר שהתלמיד מבקש) מאפשרת להוציא אל הפועל את המיומנויות החדשות, בזמן אמת. ",
+        "url": "מורים_למוזיקה/עופרי_אליעז",
+        "hourRates": []
+      },
+      {
+        "id": "58fd7ee5-76f2-46e4-ae05-fbc6c18b9475",
+        "firstName": "יפה",
+        "lastName": "תוסיה כהן",
+        "profilePicture": "\\Images\\UserProfilePictures\\bb28b1ab9dcd428c873dd78abdb06caf.JPG",
+        "city": "תל אביב - יפו",
+        "areas": ["תל אביב - יפו"],
+        "musicInstruments": [5],
+        "musicSpecialties": [
+          1, 2, 4, 8, 9, 12, 13, 14, 15, 16, 21, 24, 27, 28, 30, 31, 32, 33
+        ],
+        "shortDesc": "מורה לפיתוח קול בתל אביב - יפו",
+        "longDesc": "האם אתם רוצים לדעת לשיר, ולעשות את זה בקלות? \nהאם את רוצה יותר נוכחות בקול שלך?\nהאם אתה רוצה לשיר במקהלה ולקבל את הסולו הנכסף?\nהאם את רוצה לשיר 'קריוקי' ו'להגניב' את בני המשפחה והחברים, ולעשות את זה בשיא הביטחון?\nאפשרי בהחלט!\nנעים מאד, שמי יפה. אני שחקנית/זמרת, ומורה לפיתוח קול במגוון סגנונות - פופ, מזרחי, מחזות זמר, ערבית, ובמגוון שפות.\nהאם צריך ניסיון קודם?  התשובה היא: לא.\nאתם לא צריכים לבוא עם ידע בשירה. העבודה נעשית מהבסיס ומתקדמים לפי רמת התלמיד, כל אחד ואחת בקצב שלהם. \nאלמד אתכם לשיר במנעד יותר רחב, תלמדו לשלוט בווליום של השירה שלכם ועם ההתמדה תגיעו למצב של שירה נשלטת ונעימה, מבלי ללחוץ ולהתעייף. \nאנחנו נעבוד על היציבה, על הנשימה והתמיכה, על ההגשה ועל האינטרפרטציה, כלומר, מה אתם רוצים להגיד עם השיר.  \nכתוצאה מאלה הביטחון העצמי שלכם יעלה בכיף, והשמחה שלי בזכות ההתקדמות שלכם תרקיע שחקים.\nשירה עושה טוב על הלב. במיוחד בימים אלה אנחנו רוצים לתת ביטוי לרגשות ולקול שלנו. לא משנה מה נבחר לשיר, העיקר שזה יבוא מהלב והנשמה.\nמוזמנים לשיעור ניסיון.\nהלימוד הוא פרונטאלי ואון-ליין.",
+        "url": "מורים_למוזיקה/יפה_תוסיה_כהן",
+        "hourRates": []
+      },
+      {
+        "id": "8ce68cbd-587e-42bc-9c11-16991ca41eb8",
+        "firstName": "אלכסנדר",
+        "lastName": "מינולין",
+        "profilePicture": "\\Images\\UserProfilePictures\\da37517817ab4fcd9e4cc5cd8add99cc.jpg",
+        "city": "פתח תקווה",
+        "areas": ["פתח תקווה"],
+        "musicInstruments": [4, 5, 6, 8],
+        "musicSpecialties": [
+          1, 2, 3, 4, 5, 7, 9, 10, 11, 13, 14, 16, 17, 18, 19, 20, 21, 24, 25,
+          27, 30, 34, 35
+        ],
+        "shortDesc": "מורה לפסנתר, אורגן, פיתוח קול וחלילית בפתח תקווה",
+        "longDesc": "מורה מוסמך לפסנתר, אורגן, פיתוח קול וחלילית, עם 25 שנות ניסיון, סבלנות רבה ורצון לתת!\nשיעורים מתאימים לגילאים 5-120, ומתקיימים באווירה מהנה, עם הפעלה חוויתית בצלילים ומקצבים.\nאתם מוזמנים ללמוד מוזיקה בשיטה שפיתחתי להשגה מהירה של טכניקת נגינה, שמתאימה גם למבוגרים,\nתלמידים עם לקויות למידה והפרעות קשב וריכוז.\nשיעור היכרות ראשון בהנחה!\nמלמד גם מקצועות: פיתוח שמיעה, תאוריה, תווים ואקורדים, הרמוניה, סולפג', עיבוד, אלתור והלחנה, ליווי שירים, הכנה לבגרות, רסיטל, אודישן, מבחנים אקדמים ונגינה בהרכבים. מכוון פסנתרים.",
+        "url": "מורים_למוזיקה/אלכסנדר_מינולין",
+        "hourRates": []
+      },
+      {
+        "id": "d36ac1e4-9dfd-437c-8aea-2b6d5a37d23e",
+        "firstName": "אורחי",
+        "lastName": "היזמי",
+        "profilePicture": "\\Images\\UserProfilePictures\\34fff3a427c34ecfaec449158d7a9c28.jpg",
+        "city": "טבריה",
+        "areas": ["טבריה"],
+        "musicInstruments": [1, 3, 5, 27, 34],
+        "musicSpecialties": [
+          3, 5, 10, 11, 13, 19, 20, 26, 28, 30, 34, 37, 38, 41
+        ],
+        "shortDesc": "מורה לגיטרה וכלי הקשה בטבריה",
+        "longDesc": "מחפשים דרך להגשים את חלום הנגינה שלכם? בואו ללמוד לנגן על גיטרה או כלי הקשה! אני מציע שיעורים מקצועיים המותאמים אישית לכל רמה, מהצעדים הראשונים ועד לנגנים מתקדמים. יחד, נפתח את הכישרון המוזיקלי שלכם בסביבה תומכת ומהנה.\n\nחדש: לימוד בניית מיקס והקלטה דרך אפליקציה ותוכנה מקצועית. ",
+        "url": "מורים_למוזיקה/אורחי_היזמי",
+        "hourRates": []
+      }
+    ]
+  }
+}
