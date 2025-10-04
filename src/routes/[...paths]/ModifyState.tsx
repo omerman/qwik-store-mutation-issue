@@ -10,7 +10,7 @@ export const ModifyState = component$(() => {
   return (
     <button
       onClick$={() => {
-        // If we remove the line below, the bug is not reproducable anymore.
+        // Note 1: If we remove the line below, the bug is not reproducable anymore.
         context.routeParams.cityName = "???";
 
         if (window.location.href.includes("/1")) {

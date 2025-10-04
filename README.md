@@ -46,7 +46,7 @@ Development mode uses [Vite's development server](https://vitejs.dev/). The `dev
 npm start # or `yarn start`
 ```
 
-> Note: during dev mode, Vite may request a significant number of `.js` files. This does not represent a Qwik production build.
+> During dev mode, Vite may request a significant number of `.js` files. This does not represent a Qwik production build.
 
 ## Preview
 
