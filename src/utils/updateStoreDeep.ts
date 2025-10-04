@@ -2,7 +2,7 @@ export function updateStoreDeep(storeObject: any, updatedObject: any) {
   for (const key in updatedObject) {
     if (updatedObject[key] !== storeObject[key]) {
       if (
-        typeof storeObject[key] !== 'object' ||
+        typeof storeObject[key] !== "object" ||
         // Important addition, typeof null is object, but null is also 'primitive' we dont want to initialize it as [] or {}
         storeObject[key] === null ||
         storeObject[key] === undefined ||
@@ -24,8 +24,8 @@ export function updateStoreDeep(storeObject: any, updatedObject: any) {
   } else {
     for (const key in storeObject) {
       if (!updatedObject || !(key in updatedObject)) {
-        // Ignore functions, they are probably QRLs.
-        if (typeof storeObject[key] === 'function') continue;
+        // Ignore functions(QRLs)
+        if (typeof storeObject[key] === "function") continue;
 
         delete storeObject[key];
       }

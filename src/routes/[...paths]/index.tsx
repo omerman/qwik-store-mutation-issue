@@ -1,11 +1,16 @@
-import { component$, useContextProvider } from "@builder.io/qwik";
+import {
+  component$,
+  useContextProvider,
+  useStore,
+  useTask$,
+} from "@builder.io/qwik";
 import { routeLoader$ } from "@builder.io/qwik-city";
 
 import fs from "fs";
 import { Context } from "../context";
-import { useRouteLoaderStore } from "~/utils/useRouteLoaderStore";
 import { ModifyState } from "./ModifyState";
 import { List } from "./List";
+import { updateStoreDeep } from "~/utils/updateStoreDeep";
 
 export const useData = routeLoader$((ev) => {
   const num = Number(ev.params.paths[0]) || 0;
@@ -18,7 +23,12 @@ export default component$(() => {
 
 const Main = component$(() => {
   const data = useData();
-  useContextProvider(Context, useRouteLoaderStore(data));
+  const sotre = useStore(data.value);
+  useContextProvider(Context, sotre);
+  useTask$(({ track }) => {
+    track(data);
+    updateStoreDeep(sotre, data.value);
+  });
 
   return (
     <main class="mx-content mb-10 px-6 max-md:mx-0">
