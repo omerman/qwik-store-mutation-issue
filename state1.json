@@ -1,9 +1,5 @@
 {
-  "routeParams": {
-    "instrumentId": 5,
-    "isApproved": false,
-    "isSitemap": true
-  },
+  "routeParams": {},
   "data": {
     "teachers": [1, 2, 3, 4, 5]
   }

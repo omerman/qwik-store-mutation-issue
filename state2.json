@@ -1,10 +1,5 @@
 {
-  "routeParams": {
-    "instrumentId": 5,
-    "cityName": "הוד השרון",
-    "isApproved": false,
-    "isSitemap": true
-  },
+  "routeParams": { "cityName": "Tel Aviv" },
   "data": {
     "teachers": [1]
   }
