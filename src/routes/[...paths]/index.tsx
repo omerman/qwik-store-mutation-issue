@@ -70,7 +70,7 @@ const Main = component$(() => {
       <div class="text-[2rem]">
         {weirdPart(store.routeParams)}
         {store.teachers.length}
-        {/* Note 4: Another thing I observed is that wrapping this text node with a span will make the bug "go away". */}
+        {/* Note 4: Another thing I observed is that wrapping the above text node with a span will make the bug "go away". */}
         {/* <span>{store.teachers.length}</span> */}
       </div>
       <div class="teacher-list-container">{JSON.stringify(store.teachers)}</div>
