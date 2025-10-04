@@ -1,5 +1,5 @@
-import { component$, useStore, useTask$ } from "@builder.io/qwik";
-import { routeLoader$, useNavigate } from "@builder.io/qwik-city";
+import { component$, useStore, useTask$ } from "@qwik.dev/core";
+import { routeLoader$, useNavigate } from "@qwik.dev/router";
 
 export const useData = routeLoader$((ev) => {
   const city = ev.params.paths;
